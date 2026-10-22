@@ -1,0 +1,26 @@
+# ===== AI 会话数据（含对话记忆，切勿公开）=====
+.workbuddy/
+
+# ===== 运行日志（含本机用户名与路径）=====
+logs/
+
+# ===== 虚拟环境与 Python 缓存 =====
+.venv/
+__pycache__/
+*.py[cod]
+
+# ===== 构建产物 =====
+build/
+dist/
+*.spec
+
+# ===== 用户本地图标素材（无需公开）=====
+assets/candidates/
+
+# ===== 开发日志（可选公开；默认排除）=====
+devlog/
+
+# ===== 系统文件 =====
+Thumbs.db
+.DS_Store
+desktop.ini
